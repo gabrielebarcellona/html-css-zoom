@@ -54,8 +54,9 @@ header{
 .username{
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 5px;
     color:white;
-    border: solid grey 10px;
+    border: solid rgb(226, 198, 198);
+    background-color: rgb(206, 181, 181);
 }
 
