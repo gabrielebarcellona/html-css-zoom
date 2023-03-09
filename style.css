@@ -32,7 +32,7 @@ header{
 .container{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     margin-top: 100px;
     padding-inline: 100px;
     
@@ -40,9 +40,22 @@ header{
 }
 
 .cards{
-    background-color: red;
     flex-basis: 15%;
-   height: 250px;
-   border:solid 2px green;
+    position: relative;
+    
 
 }
+
+.cards img{
+    width: 100%;
+    
+}
+
+.username{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color:white;
+    border: solid grey 10px;
+}
+
