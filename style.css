@@ -41,9 +41,8 @@ header{
 
 .cards{
     background-color: red;
-    flex-basis: 13%;
+    flex-basis: 15%;
    height: 250px;
    border:solid 2px green;
-   margin: auto;
-   max-width: 700px;
+
 }
