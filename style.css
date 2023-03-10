@@ -92,9 +92,12 @@ display: flex;
 .bottom-dash{
     display: flex;
     align-items: center;
-   
-
 }
+
+.green{
+    color: rgb(31, 246, 31);
+}
+
 
 .bottom-center{
     display: flex;
