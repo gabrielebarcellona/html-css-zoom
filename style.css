@@ -6,13 +6,14 @@
 
 body{
     background-color: black;
-    height:100vh;
+    height:calc(100vh - 30px -100px)
 }
 
 header{
     display: flex;
     justify-content: flex-end;
     height: 30px;
+    align-items: center;
 }
 
 .description{
@@ -35,7 +36,7 @@ header{
     gap: 10px;
     margin-top: 100px;
     padding-inline: 100px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     
 
 }
@@ -57,20 +58,21 @@ header{
     left: 0;
     bottom: 5px;
     color:white;
-    border: solid rgb(226, 198, 198);
-    background-color: rgb(206, 181, 181);
+    border: solid rgb(0, 0, 0);
+    background-color: #000000;
+    opacity: 80%;
 }
 
 
-nav{
+.footer-container{
    display: flex;
     color: white;
-    height: 80px;
+    height: 100px;
     background-color: rgb(30, 30, 53);
-    justify-content: space-around;
-    
+    justify-content:space-between;
 
 }
+
 
 nav i{
     margin: 10px;
@@ -79,10 +81,17 @@ nav i{
 }
 
 .container1-flex{
-
-
-
+display: flex;
 }
+
+.container2-flex{
+    display: flex;
+}
+  
+.color-green{
+    color: rgb(45, 165, 45);
+}
+
 
 .close{
     border: solid grey 20px;
