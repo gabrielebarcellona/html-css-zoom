@@ -6,7 +6,10 @@
 
 body{
     background-color: black;
-    height:calc(100vh - 30px -100px)
+}
+main{
+    height:calc(100vh - 30px - 100px);
+    overflow-y: auto;
 }
 
 header{
@@ -44,12 +47,14 @@ header{
 .cards{
     flex-basis: 15%;
     position: relative;
+    aspect-ratio: 1.6 / 1;
     
 
 }
 
 .cards img{
     width: 100%;
+    height: 100%;
     
 }
 
@@ -80,24 +85,36 @@ nav i{
 
 }
 
-.container1-flex{
+.bottom-left{
 display: flex;
 }
 
-.container2-flex{
+.bottom-dash{
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.bottom-center{
     display: flex;
 }
   
-.color-green{
-    color: rgb(45, 165, 45);
+.bottom-dash{
+    gap: 1rem;
 }
+
 
 
 .close{
-    border: solid grey 20px;
+    border: solid grey 40px;
     background-color: grey;
     color: red;
+    
 
 }
 
-
+.last-bottom{
+    display: flex;
+    align-items: center;
+}
